@@ -1,0 +1,65 @@
+.sidebar {
+    float: left;
+    width: 15rem;
+    background-color: #f2f2f28c;
+    padding: 20px;
+    margin-left: 3rem;
+}
+
+.element {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.canvas {
+    float: left;
+    width: 390px;
+    height: 844px;
+    background-color: #fff;
+    overflow: auto;
+    border: 1px dashed #0e0e0e;
+    margin: 0 2rem;
+}
+
+#btn {
+    width: 14rem;
+    padding: 1.25rem;
+    border-radius: 5%;
+    background-color: rgb(33, 223, 223);  
+    margin-left: 4rem;
+    cursor: pointer;
+}
+
+.code {
+    width: 22rem;
+    height: 24rem;
+    margin: 0 1rem;
+    border: 1px solid gray;
+    overflow: auto;
+}
+.codeToDisplay{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .5rem;
+    margin: 0 0.5rem;
+}
+.UIDev {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.margin-square {
+    width: 1.5rem;
+}
+
+.UIDev >div >h1{
+    margin-left: 3.1rem;
+}

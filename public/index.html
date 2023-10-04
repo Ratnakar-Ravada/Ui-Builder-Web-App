@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI Builder</title>
+    <script type= "text/javascript" src="ui-dev.js"></script>
+    <link href="https://fonts.cdnfonts.com/css/montserrat" rel="stylesheet">
+    <style>
+        body {
+          font-family: 'Montserrat', sans-serif;
+        }
+      </style>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>UI Builder Web App</h1>
+    <div class="UIDev">
+        <div>
+            <h1>Elements</h1>
+            <div class="sidebar">
+                <div id="label" draggable="true" class="element">Label</div>
+                <div id="button" draggable="true" class="element">Button</div>
+                <div id="hyperlink" draggable="true" class="element">Hyperlink</div>
+            </div>
+        </div>
+        <div>
+            <h1>Create on this Canvas</h1>
+            <div class="canvas" id="canvas"></div>
+        </div>
+        <div>
+            <h1>Turn it into Code</h1>
+            <button id="btn">Generate</button>
+        </div>
+    </div>
+    <div class="codeToDisplay">
+        <div> 
+            <h1>HTML</h1>
+            <div class="html code"></div>
+        </div>
+        <div>
+            <h1>CSS</h1>
+            <div class="css code"></div>
+        </div>
+        <div>
+            <h1>JavaScript</h1>
+            <div class="js code"></div>
+        </div>
+    </div>
+</body>
+<br>
+<br>
+<footer class="footer">
+    UI Builder Web Application - 2023
+</footer>
+</html>
